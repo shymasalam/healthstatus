@@ -531,21 +531,7 @@ color:white;">
     st.plotly_chart(score_fig, use_container_width=True)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- # =====================================
+# =====================================
 # PERSONALIZED HEALTH TIPS
 # =====================================
 
@@ -623,11 +609,7 @@ Prediction: {health_status}
         report,
         file_name="health_report.txt"
 )
-
-
-
-
-
+    
 st.markdown("""
 <hr>
 
