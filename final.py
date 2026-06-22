@@ -54,13 +54,6 @@ st.markdown("""
     right:-100px;
     z-index:-1;
 }
-            .glass-card{
-    background:rgba(255,255,255,0.05);
-    backdrop-filter:blur(20px);
-    border:1px solid rgba(255,255,255,0.1);
-    border-radius:20px;
-    padding:20px;
-}
 
 </style>
 """, unsafe_allow_html=True)
@@ -212,7 +205,7 @@ with col2:
     border:1px solid rgba(255,255,255,0.1);
     ">
     <h3>⚡ Speed</h3>
-   <h1 style="color:#38bdf8;">&lt; 1 sec</h1>
+    <h1 style="color:#38bdf8;"><1 sec</h1>
     </div>
     """, unsafe_allow_html=True)
 
